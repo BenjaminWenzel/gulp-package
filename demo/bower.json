@@ -1,0 +1,29 @@
+{
+  "name": "reipron.de",
+  "description": "Reipron Website",
+  "version": "1.0.0",
+  "main": "app/app.js",
+  "moduleType": "globals",
+  "license": "private",
+  "authors": [
+    {
+      "name": "Benjamin Wenzel",
+      "email": "benjamin.wenzel@outlook.com"
+    }
+  ],
+  "homepage": "https://dev.fairmanager.eu/websites/reipron.de",
+  "repository": {
+    "type": "git",
+    "url": "https://dev.fairmanager.eu/websites/reipron.de"
+  },
+  "dependencies": {
+    "animate.css": "daneden/animate.css#^3.5.1",
+    "jquery": "^2.2.4",
+    "parallax.js": "^1.4.2",
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap": "^3.3.6",
+    "waypoints": "^4.0.0"
+  },
+  "devDependencies": {},
+  "private": true
+}
