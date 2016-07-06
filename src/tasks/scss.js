@@ -24,7 +24,7 @@ class ScssTask {
 				.pipe( sass.sync() )
 				.pipe( gulpIf( !!options.autoprefix, autoprefixer() ) )
 				.pipe( order( source ) )
-				.pipe( concat( `${options.filename}.css` ) )
+				.pipe( concat( `${filename}.css` ) )
 				.pipe( gulpIf( !!options.minify, cssnano( {
 					zindex : false
 				} ) ) )
